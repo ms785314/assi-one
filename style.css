@@ -34,8 +34,7 @@ p {
 }
 
 .main-container {
-
-    padding: 40px 80px;
+    padding: 0 80px;
 }
 
 
@@ -137,3 +136,36 @@ p {
 }
 
 /* misiion section ends here */
+
+
+/* dev section starts here */
+.bg-img {
+    background: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: 25px 45px;
+}
+
+.dev-desc p {
+    margin-bottom: 40px;
+}
+
+.dev-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0 80px 0;
+}
+
+/* .dev-section div {
+    border: 2px solid green;
+} */
+
+
+
+
+.dev-section .dev-img img {
+    width: 80%;
+    /* margin-left: 80px; */
+}
+
+/* dev section ends here */
