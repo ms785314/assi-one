@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* common css */
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.primary-btn {
+
+    background: rgb(241, 70, 70);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 7px;
+    text-transform: capitalize;
+}
+
+.colored-text {
+    color: rgb(159, 83, 231)
+}
+
+p {
+    opacity: .8;
+}
+
+.main-container {
+
+    padding: 40px 80px;
+}
+
+
+/* intro section starts here */
+.intro-secion {
+    display: flex;
+
+
+}
+
+.intro-heading {
+    font-size: 40px;
+    text-transform: capitalize;
+    border-left: 4px solid rgb(241, 70, 70);
+    padding-left: 16px;
+
+}
+
+
+.inro-img img {
+    width: 80%;
+}
+
+.inro-img {
+
+    padding-left: 50px;
+    margin-top: -20px;
+}
+
+.intro-desc {
+
+
+    padding: 30px 30px 5px 0;
+}
+
+.intro-desc p {
+    margin-bottom: 50px;
+}
+
+.intro-desc a {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.intro-desc h4 {
+    font-weight: 500;
+}
+
+/* intro section ends here */
+
+
+/* misiion section starts here */
+.mission-section {
+    margin: 40px 0;
+}
+
+.mission-heading {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 23px;
+    margin-bottom: 60px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boxes div {
+    /* border: 2px solid red; */
+    width: 28%;
+    min-height: 250px;
+    padding: 30px 10px 5px 20px;
+    border-radius: 30px;
+}
+
+.boxes p {
+    opacity: .8;
+}
+
+.boxes img {
+    width: 40%;
+}
+
+.box-1 {
+    background: rgba(250, 235, 215, 0.87);
+
+}
+
+.box-2 {
+    background: rgb(171, 223, 223);
+
+}
+
+.box-3 {
+    background: rgb(243, 215, 223);
+
+}
+
+/* misiion section ends here */
