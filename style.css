@@ -38,6 +38,7 @@ p {
 }
 
 
+
 /* intro section starts here */
 .intro-secion {
     display: flex;
@@ -105,7 +106,7 @@ p {
 }
 
 .boxes div {
-    /* border: 2px solid red; */
+
     width: 28%;
     min-height: 250px;
     padding: 30px 10px 5px 20px;
@@ -156,16 +157,14 @@ p {
     margin: 70px 0 80px 0;
 }
 
-/* .dev-section div {
-    border: 2px solid green;
-} */
+
 
 
 
 
 .dev-section .dev-img img {
     width: 300px;
-    /* margin-left: 80px; */
+
 }
 
 /* dev section ends here */
@@ -201,7 +200,7 @@ p {
 
 .about-img {
     display: flex;
-    /* flex-direction: row-reverse; */
+
     flex-direction: row-reverse;
 }
 
@@ -211,3 +210,71 @@ p {
 }
 
 /* about section ends here */
+
+
+
+/* pending */
+/* pending ems */
+
+
+
+/* footer starts here */
+.bg-black {
+    background: black;
+    margin-bottom: -18px;
+}
+
+.colored-number {
+    color: rgb(241, 70, 70);
+}
+
+.footer-section {
+    text-align: center;
+    color: white;
+    padding: 7px 0;
+}
+
+/* footer ends here */
+
+
+/* skill sectin starts here */
+.skill-section {
+    padding: 40px 0;
+}
+
+.skill-heading {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 38px;
+}
+
+.skill-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-boxes div {
+    width: 43%;
+
+}
+
+.skill-boxes h3 {
+    display: inline-block;
+    border-bottom: 3px solid black;
+
+}
+
+.skill-box-1 {
+    border-radius: 11px;
+    padding: 20px;
+    box-shadow: 10px 10px 17px black;
+}
+
+.skill-box-2 {
+    border-radius: 11px;
+    padding: 20px;
+    background: rgb(250, 134, 192);
+    box-shadow: 10px 10px 17px black;
+}
+
+/* skill sectin ends here */
