@@ -164,8 +164,50 @@ p {
 
 
 .dev-section .dev-img img {
-    width: 80%;
+    width: 300px;
     /* margin-left: 80px; */
 }
 
 /* dev section ends here */
+
+
+/* about section starts here */
+.about-section {
+    display: flex;
+
+    justify-content: space-between;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+
+}
+
+.bg-img-2 {
+    background: url(images/shapes/shape-1.png);
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: 97% 260px;
+}
+
+.about-section div {
+    width: 45%;
+    min-height: 300px;
+
+
+}
+
+.about-desc p {
+    margin-bottom: 40px;
+}
+
+.about-img {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: row-reverse;
+}
+
+.about-img img {
+    width: 320px;
+    /* margin-left: 50px; */
+}
+
+/* about section ends here */
